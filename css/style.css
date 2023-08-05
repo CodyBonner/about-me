@@ -1,5 +1,6 @@
-#subHeader{
-  font-size: 17px; 
+#linkBackground{
+  color: #A9D6E5;
+  background-color: #468FAF;
 }
 
 #bio{
@@ -15,6 +16,27 @@ body{
 
 }
 
+
+#jobHistory{
+  text-align: center;
+}
+
+footer{
+  border-style: dashed;
+  border-color: #013A63;
+  border-width: 3px;
+  text-align: center;
+  color: white;
+  background-color: #468FAF;
+}
+
+#operatingSystem{
+  text-align: center;
+}
+
+#languages{
+  text-align: center;
+}
 
 #myGithub{
   text-align: left;
