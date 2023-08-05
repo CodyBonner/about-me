@@ -1,0 +1,27 @@
+#subHeader{
+  font-size: 17px; 
+}
+
+#bio{
+margin-left: 6px;
+}
+
+body{
+  background-color: #89C2D9;
+}
+
+#name{
+  text-align: center;
+
+}
+
+
+#myGithub{
+  text-align: left;
+}
+
+#detailOne{
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: center;
+}
