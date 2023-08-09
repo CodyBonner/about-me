@@ -89,6 +89,14 @@ else{
 // console.log("Rats");
 }
 
+
+//6th question, involving number guessing
+
+
+
+
+
+//final message at the end
 alert("Once again as stated in the beginning, welcome to the page and enjoy your stay " + a1);
 
 
