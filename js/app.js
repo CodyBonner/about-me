@@ -1,9 +1,10 @@
-'use strict';
-
+"use strict";
 
 //console.log("hello world!");
 
-alert("Welcome to the site! Hope you enjoy your stay. In the following prompt, I Cody the software developer will ask for your name as well as some follow up questions. Good luck and have fun!");
+alert(
+  "Welcome to the site! Hope you enjoy your stay. In the following prompt, I Cody the software developer will ask for your name as well as some follow up questions. Good luck and have fun!"
+);
 
 //User Question
 let finalScore = 0;
@@ -13,7 +14,7 @@ alert("Welcome " + a1 + "." + " Let's see how much you know about Cody!");
 //console.log("Username is: " + a1);
 
 //Question One
-/*
+
 let q1 = prompt("Does Cody like playing Video Games?").toLowerCase();
 
 //conditionals
@@ -140,9 +141,9 @@ while(correctAnswer !== userGuess){
   }
 }
 
-alert("You're final score that you received based on the questions you answered is: " + finalScore);
 
-*/
+
+
 //7th question utilizing array and array information
 
 let gamesArray = [
@@ -155,72 +156,45 @@ let gamesArray = [
   "Satisfactory",
   "Phasmaphobia",
   "Assassins Creed",
-  "The Sims"
+  "The Sims",
 ];
-
 
 let arrayAttempts = 6;
 
 let arrayGuess;
 
-guessingGame: while(arrayAttempts > 0){
+guessingGame: while (arrayAttempts > 0) {
   arrayGuess = prompt("I'd like you to try and guess a game i've played.");
   arrayAttempts--;
 
-  for(let aa = 0; aa < gamesArray.length; aa++){
-    if (arrayGuess === gamesArray[aa] ){
+  for (let aa = 0; aa < gamesArray.length; aa++) {
+    if (arrayGuess === gamesArray[aa]) {
       console.log("The code reached here");
-      alert("Congrats! You got it right " + arrayGuess+ " is on that list");
-      break guessingGame;
+      alert("Congrats! You got it right " + arrayGuess + " is on that list");
+      alert("The list of games that were available to chooser were: " + 
+      gamesArray.toString());
+       break guessingGame;
+      
     }
-
-    else if(arrayAttempts === 0){
-      alert("Sorry you are out of attempts! The possible answers were: " + gamesArray.toString());
-      break guessingGame;
-    }
-
-  
+  }
+  if (arrayAttempts === 0) {
+    alert(
+      "Sorry you are out of attempts! The possible answers were: " +
+        gamesArray.toString()
+    );
+    break guessingGame;
+    
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  alert("Sorry that's the wrong answer you have: " + arrayAttempts + " left.");
+  console.log("Code reached last else if");
   
- // if(arrayAnswer === arrayGuess){
-
-    
-   // alert("Congrats! you got it right!");
-   // break;
-  //}
-
-  
-  //else if (arrayAttempts === 0){
-
-    
-    //alert("You are out of attempts. The possible answers were: " + gamesArray.toString());
-    //break;
-  //}
-  //else{
-    //for (let arrayAnswer = gamesArray[i]; arrayAttempts >= 0, arrayAttempts--;){
-    
-      //alert("Sorry that's wrong, please try again, you have " + arrayAttempts + " left");
-     
-  //  }
-  //}
 }
 
+alert("You're final score that you received based on the questions you answered is: " + finalScore);
+
 //final message at the end
-alert("Once again as stated in the beginning, welcome to the page and enjoy your stay " + a1);
-
-
+alert(
+  "Once again as stated in the beginning, welcome to the page and enjoy your stay " +
+    a1
+);
