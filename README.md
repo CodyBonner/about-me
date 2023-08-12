@@ -17,9 +17,15 @@ To utilize the skills and tools I have achieved to showcase a unique and persona
 
 ### Lighthouse Accessibility Report Score
 
-* Provide a screenshot of your score after running a Lighthouse Accessibility report.
+![LightHouse-Result](img/lightHouse_score.JPG)
 
 ### Reflections and Comments
 
-* Consider including the answers to your daily journal and submission questions here
-* This is also a good place to reflect on the tools and resources used and learned
+Learning Journal 3:
+
+Paper View
+This past week has been beneficial to me on a learning experience because not only did I get to continue putting in time learning the fundamentals of the languages I will be using for software development. I also learned the importance in my own practice to fully utilize IDs when it comes to  the relationship between HTML and CSS.
+
+I also learned that while I may have a good deal of knowledge when it comes to computer languages that are used in software development. There's still plenty I haven't learned but that go hand in hand with many ideas I have when it comes to website develop and just how much goes into simple things like displaying an image on alert based on a user response. It's not as simple as I thought which isn't a bad thing. It gives me something exciting to look forward to.
+
+I look forward to learning more and developing my skills further.
