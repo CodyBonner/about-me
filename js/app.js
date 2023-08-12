@@ -15,6 +15,7 @@ alert("Welcome " + a1 + "." + " Let's see how much you know about Cody!");
 
 //Question One
 
+function gameQues(){
 let q1 = prompt("Does Cody like playing Video Games?").toLowerCase();
 
 //conditionals
@@ -30,9 +31,13 @@ if (q1 === "y" || q1 === "yes") {
   finalScore--;
   //console.log("Wrong, he loves them");
 }
+}
+
+gameQues();
 
 //question two
 
+function famTree (){
 let q2 = prompt("Is Cody the youngest grandchild?").toLowerCase();
 
 //question two conditionals
@@ -50,9 +55,13 @@ if (q2 === "y" || q2 === "yes") {
   finalScore++;
   //console.log("Correct");
 }
+}
+
+famTree();
 
 //question three
 
+function codySibs(){
 let q3 = prompt("Does Cody have any siblings?").toLowerCase();
 
 //question three conditionals
@@ -68,9 +77,13 @@ if (q3 === "n" || q3 === "no") {
   finalScore++;
   //console.log("Yes you're right!");
 }
+}
+
+codySibs();
 
 //question four
 
+function UniversityQues (){
 let q4 = prompt("Has Cody ever gone to college?").toLowerCase();
 
 //question four conditionals
@@ -86,9 +99,13 @@ if (q4 === "yes" || q4 === "y") {
   finalScore--;
   //console.log("That's not right!");
 }
+}
+
+UniversityQues();
 
 //question five
 
+function moreInfo (){
 let q5 = prompt("Do you want to know more about Cody?");
 
 if (q5 === "yes" || q5 === "y") {
@@ -103,6 +120,9 @@ if (q5 === "yes" || q5 === "y") {
   finalScore--;
   // console.log("Rats");
 }
+}
+
+moreInfo();
 
 //6th question, involving number guessing
 
