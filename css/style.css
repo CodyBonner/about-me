@@ -47,7 +47,10 @@ footer{
 }
 
 #myGithub{
-  text-align: left;
+  text-align: right;
+  position: absolute; 
+  right: 35px;
+  top: 47px;
 }
 
 #detailOne{
