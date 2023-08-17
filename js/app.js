@@ -1,7 +1,5 @@
 "use strict";
 
-//console.log("hello world!");
-
 alert(
   "Welcome to the site! Hope you enjoy your stay. In the following prompt, I Cody the software developer will ask for your name as well as some follow up questions. Good luck and have fun!"
 );
@@ -11,7 +9,6 @@ let finalScore = 0;
 let userName = prompt("What is your name?");
 let a1 = userName;
 alert("Welcome " + a1 + "." + " Let's see how much you know about Cody!");
-//console.log("Username is: " + a1);
 
 //Question One
 
@@ -25,11 +22,9 @@ function gameQues() {
       "That's correct. Cody loves to play video games. So much so that he even streams them!"
     );
     finalScore++;
-    //console.log("Bingo!");
   } else {
     alert("That's wrong! He does in fact love playing video games");
     finalScore--;
-    //console.log("Wrong, he loves them");
   }
 }
 
@@ -47,13 +42,11 @@ function famTree() {
       "That's incorrect, Cody is actually the oldest of the grandchildren in his family"
     );
     finalScore--;
-    //console.log("Nope, cody is the oldest");
   } else {
     alert(
       "Right you are! Cody is actually the oldrest grandchild of his family, clocking in at 28 years old!"
     );
     finalScore++;
-    //console.log("Correct");
   }
 }
 
@@ -69,13 +62,11 @@ function codySibs() {
   if (q3 === "n" || q3 === "no") {
     alert("Not true! Cody actually does have siblings!");
     finalScore--;
-    //console.log("Nope that's wrong");
   } else {
     alert(
       "Winner Winner chicken dinner you're right! Cody does in fact have one sibling a younger brother"
     );
     finalScore++;
-    //console.log("Yes you're right!");
   }
 }
 
@@ -91,13 +82,11 @@ function UniversityQues() {
   if (q4 === "yes" || q4 === "y") {
     alert("That's right! Cody has been to college, he's even graduated too!");
     finalScore++;
-    //console.log("That's right cody has been to college!");
   } else {
     alert(
       "Sorry my dear crusader, but you are incorrect. Cody has indeed been to college."
     );
     finalScore--;
-    //console.log("That's not right!");
   }
 }
 
@@ -114,11 +103,9 @@ function moreInfo() {
     );
     alert("Enjoy your stay! And if needed ask questions.");
     finalScore++;
-    //console.log("Awesome!");
   } else {
     alert("Oh...Well that's okay! Hope you enjoyed your time here anyways!");
     finalScore--;
-    // console.log("Rats");
   }
 }
 
